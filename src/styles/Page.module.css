@@ -1,0 +1,58 @@
+/* Principal grid settings */
+.page {
+          background-color: gray;
+          display: grid;
+          height: 100vh;
+          width: 100%;
+          grid-template-columns: 1fr 4fr 1fr;
+          grid-template-rows: 1fr 4fr 1fr;
+}
+
+/* Space for button up */
+.up {
+          grid-column-start: 2;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 2;
+}
+
+/* Space for button down */
+.down {
+          grid-column-start: 2;
+          grid-column-end: 3;
+          grid-row-start: 3;
+          grid-row-end: 4;
+}
+
+/* Space for button left */
+.left {
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 2;
+          grid-row-end: 3;
+}
+
+/* Space for button right */
+.right {
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 2;
+          grid-row-end: 3;
+}
+
+/* Space for image */
+.image {
+          position: relative;
+          grid-column-start: 2;
+          grid-column-end: 3;
+          grid-row-start: 2;
+          grid-row-end: 3;
+}
+
+/* Settings button */
+.button {
+          background-color: rgb(0, 153, 255);
+          min-height: 100%;
+          border-style: solid;
+          border-width: 2px;
+}

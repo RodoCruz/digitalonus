@@ -1,0 +1,19 @@
+/* Image scale */
+img {
+          width: 100px;
+          height: 100px;
+}
+
+/* Grid space image */
+.space {
+          display: grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          height: 100%;
+          width: 100%;
+}
+
+/* Absoulte for functions top, bottom, left, right */
+.position {
+          position: absolute;
+}
